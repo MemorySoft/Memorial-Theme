@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<!-- CONFIGURACIÓN -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- MÓVILES -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <meta name="description" content="Memorial es un boilerplate para Materialize, un framework CSS responsivo basado en Material Design de Google.">
+	<title>Memorial</title>
+
+	<!-- CSS REMOTO -->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+
+	<!-- CSS LOCAL
+	<link rel="stylesheet" href="css/materialize.min.css">-->
+	<link rel="stylesheet" href="css/app.css">
+
+</head>
+
+<body class="portfolio">
+
+	<!-- NAVEGACIÓN ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+	<nav>
+    <div class="nav-wrapper row container">
+    	<div class="col s12">
+    		<a href="#!" class="brand-logo">Memorial</a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a class="menu-item" href="index.html">Inicio</a></li>
+	        <li>
+	        	<a class="dropdown-button menu-item" href="#!" data-activates="dropdown1">Páginas<i class="material-icons right">arrow_drop_down</i></a>
+	        		<ul id="dropdown1" class="dropdown-content">
+			          <li><a href="index_alt.html">Inicio 2</a></li>
+			          <li><a href="landing.html">Landing</a></li>
+			          <li><a href="portfolio.html">Portfolio</a></li>
+			          <li><a href="blog.html">Blog</a></li>
+			          <li><a href="blog_single.html">Post</a></li>
+			          <li><a href="shop.html">Tienda</a></li>
+			          <li><a href="shop_single.html">Producto</a></li>
+			        </ul>
+			    </li>
+	        <li><a class="menu-item" href="#!">Elementos</a></li>
+	        <li><a class="menu-item" href="#!">Componentes</a></li> 
+	        <li><a class="menu-item" href="#!">Javascript</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="index.html">Inicio</a></li>
+	        <li class="no-padding">
+			      <ul class="collapsible collapsible-accordion">
+			        <li>
+			          <a class="collapsible-header">Páginas<i class="mdi-navigation-arrow-drop-down"></i></a>
+			          <div class="collapsible-body">
+			            <ul>
+			              <li><a href="index_alt.html">Inicio 2</a></li>
+					          <li><a href="landing.html">Landing</a></li>
+					          <li><a href="portfolio.html">Portfolio</a></li>
+					          <li><a href="blog.html">Blog</a></li>
+					          <li><a href="blog_single.html">Post</a></li>
+					          <li><a href="shop.html">Tienda</a></li>
+					          <li><a href="shop_single.html">Producto</a></li>
+			            </ul>
+			          </div>
+			        </li>
+			      </ul>
+			    </li>
+	        <li><a href="#!">Elementos</a></li>
+	        <li><a href="#!">Componentes</a></li>
+	        <li><a href="#!">Javascript</a></li>
+	      </ul>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    	</div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+	<!-- 
+		Escaparate
+	-->
+	<section class="section escaparate">
+    <div class="row container">
+    	<div class="col s12 center white-text">
+      	<h2 class="header">Titular de bienvenida</h2>
+      	<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vero rerum tenetur dolorum obcaecati modi eum repellendus deserunt dolorem dignissimos, totam delectus culpa minima ipsum. Quas cumque, ab quae! Adipisci modi architecto vitae incidunt praesentium cumque debitis voluptatum voluptate officiis, ipsam cum molestias at optio, deserunt placeat veritatis odit quis.</p>
+      	<p><a class="waves-effect waves-grey btn-large modal-trigger white grey-text text-darken-4" href="#modal1">Modal</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- contenido modal -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-grey btn-flat">Agree</a>
+    </div>
+  </div>
+	
+	<!-- 
+		Portfolio
+	-->
+	<section class="section portfolio">
+		<div class="row container contenedor-portfolio">
+			<div class="col s12 center">
+				<h3>Portfolio</h3>
+				<p class="caption">
+					Las tarjetas son una forma conveniente de mostrar contenido compuesto de diferentes tipos de objetos. También son muy adecuadas para presentar objetos similares cuyo tamaño o acciones soportadas pueden variar considerablemente, como fotos con subtítulos de longitud variable.
+				</p>
+			</div>
+
+      <div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/dos.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+      <div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/uno.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/tres.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/cuatro.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+		</div>	
+		
+		<div class="row container">
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/cinco.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+      <div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/seis.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/siete.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/ocho.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+		</div>
+
+		<div class="row container">
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/dos.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+      <div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/uno.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/tres.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/cuatro.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+		</div>
+
+		<div class="row container">
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/cinco.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+      <div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/seis.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/siete.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12 m3">
+			  <div class="card hoverable">
+			    <div class="card-image waves-effect waves-block waves-grey">
+			      <img class="activator" src="images/ocho.png">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4 truncate">Título muy laaaaaaaaaargo<i class="material-icons right">visibility</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Título muy laaaaaaaaaargo<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-grey btn memory-color">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12">
+				<div class="espaciador"></div>
+				<div class="divider"></div>
+				<div class="espaciador"></div>
+
+			  <ul class="pagination center">
+			    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+			    <li class="active"><a href="#!">1</a></li>
+			    <li class="waves-effect"><a href="#!">2</a></li>
+			    <li class="waves-effect"><a href="#!">3</a></li>
+			    <li class="waves-effect"><a href="#!">4</a></li>
+			    <li class="waves-effect"><a href="#!">5</a></li>
+			    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+			  </ul>
+			</div>
+		</div>
+	</section>
+	
+
+	<!-- FOOTER ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <footer class="page-footer">
+
+  	<!-- 
+			Info y navegación extra
+		-->
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contenido del Footer</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque nam exercitationem, delectus ab odio eveniet odit quos. Quam ducimus error pariatur tempore voluptas, suscipit, minima consequuntur inventore nulla. Saepe, aliquam..</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Enlaces</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+			Créditos
+		-->
+    <div class="footer-copyright">
+      <div class="container">
+      © 2015 Memory Soft
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+	<!-- 
+		Botón redondo flotante
+	-->
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large acento-color">
+      <i class="large material-icons">contact_phone</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating btn-large acento-color" title="chatea con nosotros"><i class="material-icons">chat</i></a></li>
+      <li><a class="btn-floating btn-large acento-color" title="escríbenos"><i class="material-icons">email</i></a></li>
+      <li><a class="btn-floating btn-large acento-color" title="llámanos por teléfono"><i class="material-icons">call</i></i></a></li>
+    </ul>
+  </div>
+      
+	<!-- JAVASCRIPT ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+	<!-- JQUERY -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>if (!window.jQuery) { document.write('<script src="js/jquery-2.1.4.min.js"><\/script>'); }</script>
+
+	<!-- REMOTO -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+	
+	<!-- LOCAL : Descomentar en producción
+	<script src="js/materialize.min.js"></script> -->
+	<script>
+		$(document).ready(function() {
+			// Inicializa el botón del menú responsive
+	    $(".button-collapse").sideNav();
+	    // Inicializa las listas desplegables
+			$(".dropdown-button").dropdown();
+			// Inicializa el efecto paralaje
+	    $('.parallax').parallax();
+	    // Inicializa las ventasnas modales
+	    $('.modal-trigger').leanModal();
+	    // Inicializa las pestañas
+	    $('ul.tabs').tabs();
+	    // Inicializa el carrusel
+	    $('.slider').slider({
+	    	full_width: true,
+	    	height: 500
+	    });
+	    // Inicializa las animaciones de desplazamiento
+	    var options = [
+		    {selector: '#call', offset: 200, callback: 'globalFunction()' },
+		    {selector: '#cards', offset: 200, callback: 'globalFunction()' },
+		    {selector: '#form', offset: 200, callback: 'globalFunction()' },
+		  ];
+		  Materialize.scrollFire(options);
+		});
+	</script>
+
+</body>
+</html>

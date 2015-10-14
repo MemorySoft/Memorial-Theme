@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<!-- CONFIGURACIÓN -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- MÓVILES -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <meta name="description" content="Memorial es un boilerplate para Materialize, un framework CSS responsivo basado en Material Design de Google.">
+	<title>Memorial</title>
+
+	<!-- CSS REMOTO -->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+
+	<!-- CSS LOCAL
+	<link rel="stylesheet" href="css/materialize.min.css">-->
+	<link rel="stylesheet" href="css/app.css">
+
+</head>
+
+<body class="landing">
+
+	<!-- NAVEGACIÓN ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+	<nav>
+    <div class="nav-wrapper row container">
+    	<div class="col s12">
+    		<a href="#!" class="brand-logo">Memorial</a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a class="menu-item" href="index.html">Inicio</a></li>
+	        <li>
+	        	<a class="dropdown-button menu-item" href="#!" data-activates="dropdown1">Páginas<i class="material-icons right">arrow_drop_down</i></a>
+	        		<ul id="dropdown1" class="dropdown-content">
+			          <li><a href="index_alt.html">Inicio 2</a></li>
+			          <li><a href="landing.html">Landing</a></li>
+			          <li><a href="portfolio.html">Portfolio</a></li>
+			          <li><a href="blog.html">Blog</a></li>
+			          <li><a href="blog_single.html">Post</a></li>
+			          <li><a href="shop.html">Tienda</a></li>
+			          <li><a href="shop_single.html">Producto</a></li>
+			        </ul>
+			    </li>
+	        <li><a class="menu-item" href="#!">Elementos</a></li>
+	        <li><a class="menu-item" href="#!">Componentes</a></li> 
+	        <li><a class="menu-item" href="#!">Javascript</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="index.html">Inicio</a></li>
+	        <li class="no-padding">
+			      <ul class="collapsible collapsible-accordion">
+			        <li>
+			          <a class="collapsible-header">Páginas<i class="mdi-navigation-arrow-drop-down"></i></a>
+			          <div class="collapsible-body">
+			            <ul>
+			              <li><a href="index_alt.html">Inicio 2</a></li>
+					          <li><a href="landing.html">Landing</a></li>
+					          <li><a href="portfolio.html">Portfolio</a></li>
+					          <li><a href="blog.html">Blog</a></li>
+					          <li><a href="blog_single.html">Post</a></li>
+					          <li><a href="shop.html">Tienda</a></li>
+					          <li><a href="shop_single.html">Producto</a></li>
+			            </ul>
+			          </div>
+			        </li>
+			      </ul>
+			    </li>
+	        <li><a href="#!">Elementos</a></li>
+	        <li><a href="#!">Componentes</a></li>
+	        <li><a href="#!">Javascript</a></li>
+	      </ul>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    	</div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- 
+		Escaparate
+	-->
+	<section class="section escaparate escaparate-land white-text">
+		<!-- <img src="images/cinco.png"> -->
+	</section>
+
+	<!-- 
+		Aterrizaje
+	-->
+	<section class="section aterrizaje">
+		<div class="row container z-depth-3">
+			<div class="col s12 m3">
+				<img src="images/logo_memory_nuevo.png" class="responsive-img" alt="">
+			</div>
+			<div class="col s12 m9">
+				<h3>Titulo con gancho</h3>
+				<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vero rerum tenetur dolorum obcaecati modi eum repellendus deserunt dolorem dignissimos, totam delectus culpa minima ipsum. Quas cumque, ab quae!</p>
+	      <p><a class="waves-effect waves-grey btn-large memory-color white-text" href="#modal1">ACCIÓN</a></p>
+			</div>
+		</div>
+	</section>
+
+	<!-- 
+		Expo
+	-->
+	<section class="section expo">		
+		<div class="row container container-expo">
+			<div class="col s12 m4">
+				<img src="images/uno.png" alt="descripción de la imagen" class="responsive-img">
+			</div>
+			<div class="col s12 m8">
+				<h3>Titulo</h3>
+				<p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente impedit quia qui earum, atque quibusdam odit suscipit porro. Temporibus, tempore accusamus odit tenetur ipsam? Assumenda, quaerat. Velit deserunt, dolores voluptates.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="section expo">		
+		<div class="row container container-expo">
+			<div class="col s12 m4 hide-on-large-only">
+				<img src="images/dos.png" alt="descripción de la imagen" class="responsive-img">
+			</div>
+			<div class="col s12 m8">
+				<h3>Titulo</h3>
+				<p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente impedit quia qui earum, atque quibusdam odit suscipit porro. Temporibus, tempore accusamus odit tenetur ipsam? Assumenda, quaerat. Velit deserunt, dolores voluptates.</p>
+			</div>
+			<div class="col s12 m4 hide-on-small-only">
+				<img src="images/dos.png" alt="descripción de la imagen" class="responsive-img">
+			</div>
+		</div>
+	</section>
+
+	<section class="section expo">		
+		<div class="row container container-expo">
+			<div class="col s12 m4">
+				<img src="images/tres.png" alt="descripción de la imagen" class="responsive-img">
+			</div>
+			<div class="col s12 m8">
+				<h3>Titulo</h3>
+				<p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente impedit quia qui earum, atque quibusdam odit suscipit porro. Temporibus, tempore accusamus odit tenetur ipsam? Assumenda, quaerat. Velit deserunt, dolores voluptates.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="section expo">		
+		<div class="row container container-expo">
+			<div class="col s12 m4 hide-on-large-only">
+				<img src="images/cuatro.png" alt="descripción de la imagen" class="responsive-img">
+			</div>
+			<div class="col s12 m8">
+				<h3>Titulo</h3>
+				<p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente impedit quia qui earum, atque quibusdam odit suscipit porro. Temporibus, tempore accusamus odit tenetur ipsam? Assumenda, quaerat. Velit deserunt, dolores voluptates.</p>
+			</div>
+			<div class="col s12 m4 hide-on-small-only">
+				<img src="images/cuatro.png" alt="descripción de la imagen" class="responsive-img">
+			</div>
+		</div>
+	</section>
+
+	<!-- 
+		Solapas
+	-->
+	<section class="section solapas memory-color white-text">
+	  <div class="row container">
+	    <div class="col s12">
+	      <ul class="tabs memory-color white-text">
+	        <li class="tab col s3"><a class="active" href="#test1">Test 1</a></li>
+	        <li class="tab col s3"><a href="#test2">Test 2</a></li>
+	        <li class="tab col s3"><a href="#test3">Test 3</a></li>
+	        <li class="tab col s3"><a href="#test4">Test 4</a></li>
+	      </ul>
+	    </div>
+	    <div id="test1" class="col s12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore at, fuga soluta adipisci illum rerum dolorem, asperiores doloremque necessitatibus quas eum dicta ipsum sequi repellat nobis similique iure atque ea minima cupiditate ipsam earum debitis. Eius sed voluptatibus accusantium consequatur! Quas incidunt sunt voluptates accusamus perspiciatis sed consequuntur impedit ad est facilis ut tempora repellendus fugiat velit tenetur alias aspernatur itaque, reprehenderit optio non iure, aperiam asperiores. Iusto, aspernatur ratione optio molestiae ipsa alias illo dolorum omnis harum adipisci consequatur amet dolores asperiores numquam. Voluptatum tempora, provident ipsum vel illo officiis? Earum quis aspernatur animi consequuntur ullam autem id dignissimos saepe! Hic, numquam. Rerum nisi quisquam natus velit saepe dicta sequi. Aspernatur praesentium eligendi nihil nostrum iusto nisi maxime similique omnis, aut at, quidem a hic suscipit ab voluptate cum quasi odit consectetur minima molestiae. Nisi sint et eius deleniti autem cumque commodi recusandae alias. Veritatis accusamus eos doloribus nulla sint, accusantium numquam sapiente nostrum corporis, obcaecati expedita ratione ea nam at fuga maiores. Commodi laboriosam eum aut voluptatibus nam natus, debitis molestias iste eligendi rerum quasi deleniti beatae, quod porro, perferendis, ut dolores. Odio aperiam, molestias nesciunt maiores perferendis obcaecati facilis laboriosam minima dolorum, fuga incidunt reprehenderit, nostrum id.</div>
+	    <div id="test2" class="col s12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quod minus dolorum nemo, alias enim recusandae tempore itaque quae? Deleniti doloribus eligendi accusantium maxime iusto veritatis qui velit a aliquid, ipsam incidunt laudantium, saepe deserunt facilis nesciunt quidem. Iure beatae, officia quae repudiandae obcaecati, sapiente vitae id a eligendi quia ullam. Illo distinctio, unde? Cumque ab aliquam, laborum nemo. Debitis quia ipsum recusandae ad, perspiciatis temporibus iure molestias facere id aliquid optio qui quasi, perferendis eaque porro nemo, quidem repellat velit ratione sunt consectetur aperiam a delectus tempore laboriosam. Incidunt vel fugiat recusandae fuga, minus voluptatibus dolor. Minima soluta alias repudiandae culpa molestias, nobis aut quam nostrum repellat! Nulla odit, accusantium in recusandae ab amet inventore, facere culpa voluptatum reiciendis temporibus, similique rem numquam. Iste ducimus minus repellendus nam optio earum rem, necessitatibus magnam tenetur ea ipsam at recusandae consectetur tempore rerum possimus, maiores error minima nobis repellat molestias, ipsa blanditiis nostrum. Voluptatum consequuntur cumque assumenda veniam fuga. Esse sapiente iste architecto rem deleniti, nisi adipisci id soluta consequuntur harum. Unde sint excepturi, odio iusto, blanditiis quibusdam neque sed similique omnis quod quisquam veritatis debitis ab, tempora, molestias in voluptas. Id molestias itaque a officia vel praesentium quam, dicta accusantium.</div>
+	    <div id="test3" class="col s12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quo fugit eius rerum omnis illo excepturi natus totam fugiat minima nihil odit odio illum numquam nesciunt modi quam et harum ipsam impedit aperiam nobis in quis, ab deserunt. Corrupti cum animi sint consequuntur delectus fugit voluptas rerum iusto excepturi expedita blanditiis, autem error. Reiciendis officiis, quaerat laborum veritatis consectetur, ipsam minus delectus illo sed enim est! Voluptates voluptatum, suscipit enim natus nesciunt odit nihil. Quas odio ex exercitationem, minus repellat cupiditate aliquid reprehenderit. Sequi, minima deserunt laudantium, iste itaque iusto saepe. Quidem, odio sunt. Obcaecati fugiat nulla, magni soluta aliquid voluptas tempore minima, tempora iure, dolor id error tenetur autem dignissimos laborum doloremque! Est reiciendis sit, amet molestiae praesentium pariatur consectetur, eum hic sapiente earum eveniet, cumque, omnis provident recusandae non sequi inventore! Repellat mollitia dignissimos quo nulla ullam reprehenderit aut possimus, et inventore repellendus accusamus autem deleniti consequatur magnam ipsum obcaecati optio doloribus unde culpa laboriosam tempora vel quis. Cumque delectus tenetur, illo blanditiis voluptatum quod veniam ab dolores, ducimus temporibus dignissimos excepturi earum laboriosam vitae velit magni reiciendis facilis porro. Nesciunt reiciendis omnis tempora cumque, quidem eveniet laborum eius error cum aliquid, quod modi odit aut magni rem.</div>
+	    <div id="test4" class="col s12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ad distinctio animi, voluptatem voluptates veritatis ducimus nostrum totam doloremque, quod. Nemo esse, cum ipsum corporis rerum numquam aspernatur dolores quis est obcaecati. Laborum, qui, natus. Architecto totam et in saepe, inventore cumque blanditiis, ducimus praesentium consequuntur ullam dolorem sit ea distinctio unde quos eum eligendi aut odio, mollitia error nobis dolor hic. Veniam odio est tenetur inventore. Et impedit veritatis, quae blanditiis laudantium aspernatur vel nesciunt consectetur molestias animi, ut esse. Blanditiis harum exercitationem tempora deserunt nostrum, quasi porro qui quibusdam eveniet magnam sit libero in. Voluptate illum possimus eaque ratione enim, dolores repudiandae pariatur maxime molestias aspernatur? Repudiandae, voluptates, sunt necessitatibus animi quidem cumque veniam eaque quis error in repellendus recusandae, dicta accusantium voluptas amet! Nemo praesentium vel, quam alias id fugiat sequi exercitationem pariatur cupiditate ullam hic debitis recusandae dolorem inventore. Enim minus voluptas ipsam iste optio aperiam libero, consequatur similique a mollitia incidunt exercitationem temporibus repellendus, quae sequi nulla quibusdam labore, commodi quam debitis in dicta blanditiis. Nobis repellendus quibusdam cumque veniam eius. Deserunt officia eligendi ea reprehenderit sunt asperiores rerum iste modi odio beatae itaque, provident tempora, voluptas et qui molestiae ipsam? Voluptates deleniti, tenetur molestias!</div>
+	  </div>
+	</section>
+
+	<!-- 
+		Tarjetas
+	-->
+	<section class="section tarjetas">
+		<div class="row container">
+			<div class="col s12">
+  			<h4>Título</h4>
+  		</div>
+
+      <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/uno.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div> 
+
+      <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/dos.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/tres.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/cuatro.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/cinco.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/seis.png">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+      
+		</div>
+	</section>
+
+
+	<!-- FOOTER ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <footer class="page-footer">
+
+  	<!-- 
+			Info y navegación extra
+		-->
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contenido del Footer</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque nam exercitationem, delectus ab odio eveniet odit quos. Quam ducimus error pariatur tempore voluptas, suscipit, minima consequuntur inventore nulla. Saepe, aliquam.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Enlaces</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+			Créditos
+		-->
+    <div class="footer-copyright">
+      <div class="container">
+      © 2015 Memory Soft
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+	<!-- 
+		Botón redondo flotante
+	-->
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large acento-color">
+      <i class="large material-icons">contact_phone</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating btn-large acento-color" title="chatea con nosotros"><i class="material-icons">chat</i></a></li>
+      <li><a class="btn-floating btn-large acento-color" title="escríbenos"><i class="material-icons">email</i></a></li>
+      <li><a class="btn-floating btn-large acento-color" title="llámanos por teléfono"><i class="material-icons">call</i></i></a></li>
+    </ul>
+  </div>
+      
+	<!-- JAVASCRIPT ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+	<!-- JQUERY -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>if (!window.jQuery) { document.write('<script src="js/jquery-2.1.4.min.js"><\/script>'); }</script>
+
+	<!-- REMOTO -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+	
+	<!-- LOCAL : Descomentar en producción
+	<script src="js/materialize.min.js"></script> -->
+	<script>
+		$(document).ready(function() {
+			// Inicializa el botón del menú responsive
+	    $(".button-collapse").sideNav();
+	    // Inicializa las listas desplegables
+			$(".dropdown-button").dropdown();
+			// Inicializa el efecto paralaje
+	    $('.parallax').parallax();
+	    // Inicializa las ventasnas modales
+	    $('.modal-trigger').leanModal();
+	    // Inicializa las pestañas
+	    $('ul.tabs').tabs();
+	    // Inicializa el carrusel
+	    $('.slider').slider({
+	    	full_width: true,
+	    	height: 500
+	    });
+	    // Inicializa las animaciones de desplazamiento
+	    var options = [
+		    {selector: '.expo', offset: 1500, callback: 'Materialize.fadeIn(".expo")' }
+		  ];
+		  Materialize.scrollFire(options);
+		});
+	</script>
+
+</body>
+</html>

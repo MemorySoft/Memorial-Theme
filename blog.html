@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<!-- CONFIGURACIÓN -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- MÓVILES -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <meta name="description" content="Memorial es un boilerplate para Materialize, un framework CSS responsivo basado en Material Design de Google.">
+	<title>Memorial</title>
+
+	<!-- CSS REMOTO -->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+
+	<!-- CSS LOCAL
+	<link rel="stylesheet" href="css/materialize.min.css">-->
+	<link rel="stylesheet" href="css/app.css">
+
+</head>
+
+<body class="blog">
+
+	<!-- NAVEGACIÓN ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+	<nav>
+    <div class="nav-wrapper row container">
+    	<div class="col s12">
+    		<a href="#!" class="brand-logo">Memorial</a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a class="menu-item" href="index.html">Inicio</a></li>
+	        <li>
+	        	<a class="dropdown-button menu-item" href="#!" data-activates="dropdown1">Páginas<i class="material-icons right">arrow_drop_down</i></a>
+	        		<ul id="dropdown1" class="dropdown-content">
+			          <li><a href="index_alt.html">Inicio 2</a></li>
+			          <li><a href="landing.html">Landing</a></li>
+			          <li><a href="portfolio.html">Portfolio</a></li>
+			          <li><a href="blog.html">Blog</a></li>
+			          <li><a href="blog_single.html">Post</a></li>
+			          <li><a href="shop.html">Tienda</a></li>
+			          <li><a href="shop_single.html">Producto</a></li>
+			        </ul>
+			    </li>
+	        <li><a class="menu-item" href="#!">Elementos</a></li>
+	        <li><a class="menu-item" href="#!">Componentes</a></li> 
+	        <li><a class="menu-item" href="#!">Javascript</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="index.html">Inicio</a></li>
+	        <li class="no-padding">
+			      <ul class="collapsible collapsible-accordion">
+			        <li>
+			          <a class="collapsible-header">Páginas<i class="mdi-navigation-arrow-drop-down"></i></a>
+			          <div class="collapsible-body">
+			            <ul>
+			              <li><a href="index_alt.html">Inicio 2</a></li>
+					          <li><a href="landing.html">Landing</a></li>
+					          <li><a href="portfolio.html">Portfolio</a></li>
+					          <li><a href="blog.html">Blog</a></li>
+					          <li><a href="blog_single.html">Post</a></li>
+					          <li><a href="shop.html">Tienda</a></li>
+					          <li><a href="shop_single.html">Producto</a></li>
+			            </ul>
+			          </div>
+			        </li>
+			      </ul>
+			    </li>
+	        <li><a href="#!">Elementos</a></li>
+	        <li><a href="#!">Componentes</a></li>
+	        <li><a href="#!">Javascript</a></li>
+	      </ul>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    	</div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- 
+		Blogroll
+	-->
+	<section class="section contenedor-blog">		
+		<div class="row container">
+			<div class="col s12 m9 contenido-blog"> 
+			  <div class="card post">
+          <div class="card-image">
+            <img src="images/uno.png">
+          </div>
+          <div class="card-content">
+          	<div class="card-post-meta">
+          		<div class="chip chip-alt left">
+						    <img src="images/avatar.jpg" alt="Contact Person">
+						    Memory Soft
+						  </div>
+	  					<div class="fecha left">
+	  						30 de Septiembre de 2015
+	  					</div>	
+	  					<div class="tags right">
+          			<div class="chip"><a href="#!">Tag</a></div>
+	  					</div>
+          	</div>
+          	<h2 class="card-title grey-text text-darken-4"><a href="blog_single.html">Lorem ipsum dolor sit amet, consectetur adipisicing.</a></h2>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="blog_single.html">LEER MÁS</a>
+          </div>
+        </div>
+
+        <div class="card post">
+          <div class="card-image">
+          </div>
+          <div class="card-content">
+          	<div class="card-post-meta">
+          		<div class="chip chip-alt left">
+						    <img src="images/avatar.jpg" alt="Contact Person">
+						    Memory Soft
+						  </div>
+	  					<div class="fecha left">
+	  						30 de Septiembre de 2015
+	  					</div>	
+	  					<div class="tags right">
+          			<div class="chip"><a href="#!">Tag</a></div>
+	  					</div>
+          	</div>
+          	<h2 class="card-title grey-text text-darken-4"><a href="blog_single.html">Lorem ipsum dolor sit amet, consectetur adipisicing.</a></h2>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="blog_single.html">LEER MÁS</a>
+          </div>
+        </div>
+
+        <div class="card post">
+          <div class="card-image">
+            <div class="video-container">
+            	<iframe width="853" height="480" src="https://www.youtube.com/embed/Y0UEGsvcYvk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="card-content">
+          	<div class="card-post-meta">
+          		<div class="chip chip-alt left">
+						    <img src="images/avatar.jpg" alt="Contact Person">
+						    Memory Soft
+						  </div>
+	  					<div class="fecha left">
+	  						30 de Septiembre de 2015
+	  					</div>	
+	  					<div class="tags right">
+          			<div class="chip"><a href="#!">Tag</a></div>
+	  					</div>
+          	</div>
+          	<h2 class="card-title grey-text text-darken-4"><a href="blog_single.html">Lorem ipsum dolor sit amet, consectetur adipisicing.</a></h2>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="blog_single.html">LEER MÁS</a>
+          </div>
+        </div>
+
+				<div class="espaciador"></div>
+				<div class="divider hide-on-small-only"></div>
+				<div class="espaciador"></div>
+
+			  <ul class="pagination center">
+			    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+			    <li class="active"><a href="#!">1</a></li>
+			    <li class="waves-effect"><a href="#!">2</a></li>
+			    <li class="waves-effect"><a href="#!">3</a></li>
+			    <li class="waves-effect"><a href="#!">4</a></li>
+			    <li class="waves-effect"><a href="#!">5</a></li>
+			    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+			  </ul>
+				
+				<div class="espaciador"></div>
+			  <div class="divider hide-on-med-and-up"></div>
+			  <div class="espaciador"></div>
+
+      </div>
+
+      <div class="col s12 l3 sidebar">
+				<div class="sidebar-item">
+					<div class="input-field">
+	          <i class="material-icons prefix">search</i>
+	          <input id="icon_prefix" type="text" class="validate">
+	          <label for="icon_prefix">Buscar en el blog</label>
+	        </div>
+				</div>
+
+				<div class="espaciador"></div>
+
+      	<div class="sidebar-item">
+        	<h6>Etiquetas</h6>
+        	<div class="espaciador"></div>
+          <div class="chip"><a href="#!">Foundation</a></div>
+	        <div class="chip"><a href="#!">Material</a></div>
+	        <div class="chip"><a href="#!">Bootstrap</a></div>
+      		<div class="chip"><a href="#!">React</a></div>
+      		<div class="chip"><a href="#!">Node</a></div>
+      		<div class="chip"><a href="#!">WebPack</a></div>
+      		<div class="chip"><a href="#!">Orchard</a></div>
+      		<div class="chip"><a href="#!">Wordpress</a></div>
+      		<div class="chip"><a href="#!">NopCommerce</a></div>
+      		<div class="chip"><a href="#!">Grav</a></div>
+      		<br>
+      		<br>
+        </div>
+
+      	<div class="sidebar-item">
+          <ul class="collection with-header">
+		        <li class="collection-header"><h6>Categorías</h6></li>
+		        <li class="collection-item"><div>Aplicaciones<a href="#!" class="secondary-content"><i class="material-icons">chevron_right</i></a></div></li>
+		        <li class="collection-item"><div>Diseño Web<a href="#!" class="secondary-content"><i class="material-icons">chevron_right</i></a></div></li>
+		        <li class="collection-item"><div>Tutoriales<a href="#!" class="secondary-content"><i class="material-icons">chevron_right</i></a></div></li>
+		        <li class="collection-item"><div>Ecommerce<a href="#!" class="secondary-content"><i class="material-icons">chevron_right</i></a></div></li>
+		      </ul>
+        </div>
+
+        <div class="sidebar-item">
+				  <ul class="collection with-header">
+				  	<li class="collection-header"><h6>Posts recientes</h6></li>
+				    <li class="collection-item avatar">
+				      <img src="images/avatar.jpg" alt="" class="circle">
+				      <span class="title"><a href="#!" class="truncate">Lorem ipsum dolor sit amet, consectetur adipisicing.</a></span>
+				      <p class="caption truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus, iste molestiae repellat ipsum voluptatem cum perspiciatis aut! Quisquam sint modi obcaecati mollitia accusantium beatae alias consectetur porro perspiciatis quam.</p>
+				      <a href="#!" class="secondary-content"></a>
+				    </li>
+				    <li class="collection-item avatar">
+				      <img src="images/avatar.jpg" alt="" class="circle">
+				      <span class="title"><a href="#!" class="truncate">Lorem ipsum dolor sit amet, consectetur adipisicing.</a></span>
+				      <p class="caption truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo minus provident sequi iure amet ipsa nam, beatae autem quas placeat, illo accusamus atque aliquam veritatis similique. Vitae reiciendis, laborum!</p>
+				      <a href="#!" class="secondary-content"></a>
+				    </li>
+				    <li class="collection-item avatar">
+				      <img src="images/avatar.jpg" alt="" class="circle">
+				      <span class="title"><a href="#!" class="truncate">Lorem ipsum dolor sit amet, consectetur adipisicing.</a></span>
+				      <p class="caption truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, tempore, dolor mollitia totam, quibusdam beatae ullam odio quasi accusantium repellat maxime? Repudiandae minus doloribus omnis tempore adipisci minima aliquam corporis.</p>
+				      <a href="#!" class="secondary-content"></a>
+				    </li>
+				    <li class="collection-item avatar">
+				      <img src="images/avatar.jpg" alt="" class="circle">
+				      <span class="title"><a href="#!" class="truncate">Lorem ipsum dolor sit amet, consectetur adipisicing.</a></span>
+				      <p class="caption truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, voluptatibus. Fugiat commodi dolor, vero quam voluptates expedita reprehenderit doloremque soluta quidem modi quae recusandae adipisci porro rem distinctio minus deserunt?</p>
+				      <a href="#!" class="secondary-content"></a>
+				    </li>
+				    <li><a href="#!" class="btn-flat right">MÁS</a></li>
+				  </ul>
+        </div>
+
+        <div class="sidebar-item">
+          <ul class="collection with-header">
+		        <li class="collection-header"><h6>Archivo</h6></li>
+		        <li class="collection-item"><div>2015<a href="#!" class="secondary-content"><i class="material-icons">chevron_right</i></a></div></li>
+		        <li class="collection-item"><div>2014<a href="#!" class="secondary-content"><i class="material-icons">chevron_right</i></a></div></li>
+		        <li class="collection-item"><div>2013<a href="#!" class="secondary-content"><i class="material-icons">chevron_right</i></a></div></li>
+		        <li class="collection-item"><div>2012<a href="#!" class="secondary-content"><i class="material-icons">chevron_right</i></a></div></li>
+		      </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+	<!-- FOOTER ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <footer class="page-footer">
+
+  	<!-- 
+			Info y navegación extra
+		-->
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contenido del Footer</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your Contenido del Footer.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Enlaces</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+			Créditos
+		-->
+    <div class="footer-copyright">
+      <div class="container">
+      © 2015 Memory Soft
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+	<!-- 
+		Botón redondo flotante
+	-->
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large acento-color">
+      <i class="large material-icons">contact_phone</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating btn-large acento-color" title="chatea con nosotros"><i class="material-icons">chat</i></a></li>
+      <li><a class="btn-floating btn-large acento-color" title="escríbenos"><i class="material-icons">email</i></a></li>
+      <li><a class="btn-floating btn-large acento-color" title="llámanos por teléfono"><i class="material-icons">call</i></i></a></li>
+    </ul>
+  </div>
+      
+	<!-- JAVASCRIPT ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+	<!-- JQUERY -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>if (!window.jQuery) { document.write('<script src="js/jquery-2.1.4.min.js"><\/script>'); }</script>
+
+	<!-- REMOTO -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+	
+	<!-- LOCAL : Descomentar en producción
+	<script src="js/materialize.min.js"></script> -->
+	<script>
+		$(document).ready(function() {
+			// Inicializa el botón del menú responsive
+	    $(".button-collapse").sideNav();
+	    // Inicializa las listas desplegables
+			$(".dropdown-button").dropdown();
+			// Inicializa el efecto paralaje
+	    $('.parallax').parallax();
+	    // Inicializa las ventasnas modales
+	    $('.modal-trigger').leanModal();
+	    // Inicializa las pestañas
+	    $('ul.tabs').tabs();
+	    // Inicializa el carrusel
+	    $('.slider').slider({
+	    	full_width: true,
+	    	height: 500
+	    });
+	    // Inicializa las animaciones de desplazamiento
+	    var options = [
+		    {selector: '#call', offset: 200, callback: 'globalFunction()' },
+		    {selector: '#cards', offset: 200, callback: 'globalFunction()' },
+		    {selector: '#form', offset: 200, callback: 'globalFunction()' },
+		  ];
+		  Materialize.scrollFire(options);
+		});
+	</script>
+
+</body>
+</html>

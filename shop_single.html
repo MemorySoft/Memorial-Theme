@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="description" content="Boilerial es un boilerplate para Materialize, un framework CSS responsivo basado en Material Design de Google.">
+
+	<title>Boilerial</title>
+
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+	<!-- NAVEGACIÓN -->
+	<nav>
+    <div class="nav-wrapper row container">
+    	<div class="col s12">
+    		<a href="#!" class="brand-logo">Boilerial</a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="#!">Home</a></li>
+	        <li>
+	        	<a class="dropdown-button" href="#!" data-activates="dropdown1">Páginas<i class="material-icons right">arrow_drop_down</i></a>
+	        		<ul id="dropdown1" class="dropdown-content">
+			          <li><a href="#!">one</a></li>
+			          <li><a href="#!">two</a></li>
+			          <!-- <li class="divider"></li> -->
+			          <li><a href="#!">three</a></li>
+			        </ul>
+			    </li>
+	        <li><a href="#!">Elementos</a></li>
+	        <li><a href="#!">Componentes</a></li>
+	        <li><a href="#!">Javascript</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="#!">Home</a></li>
+	        <li class="no-padding">
+			      <ul class="collapsible collapsible-accordion">
+			        <li>
+			          <a class="collapsible-header">Páginas<i class="mdi-navigation-arrow-drop-down"></i></a>
+			          <div class="collapsible-body">
+			            <ul>
+			              <li><a href="#!">one</a></li>
+					          <li><a href="#!">two</a></li>
+					          <!-- <li class="divider"></li> -->
+					          <li><a href="#!">three</a></li>
+			            </ul>
+			          </div>
+			        </li>
+			      </ul>
+			    </li>
+	        <li><a href="#!">Elementos</a></li>
+	        <li><a href="#!">Componentes</a></li>
+	        <li><a href="#!">Javascript</a></li>
+	      </ul>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    	</div>
+    </div>
+  </nav>
+
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="images/uno.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/dos.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/tres.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/cuatro.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+      
+
+  <!-- CONTENIDO -->
+	<section class="section">		
+		<div class="row container">
+      <div class="col s12 l4">
+        <div class="center promo promo-example">
+          <i class="material-icons">flash_on</i>
+          <p class="promo-caption">Acelera el desarrollo</p>
+          <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+        </div>
+      </div>
+      <div class="col s12 l4">
+        <div class="center promo promo-example">
+          <i class="material-icons">group</i>
+          <p class="promo-caption">Enfocado en el usuario</p>
+          <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+        </div>
+      </div>
+      <div class="col s12 l4">
+        <div class="center promo promo-example">
+          <i class="material-icons">settings</i>
+          <p class="promo-caption">Fácil de trabajar</p>
+          <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+		<div class="parallax-container">
+	    <div class="parallax"><img src="images/tres.jpg"></div>
+	  </div>
+	  <div class="section white">
+	    <div class="row container">
+	    	<div class="col s12 center">
+	      	<h2 class="header">Parallax</h2>
+	      	<p class="grey-text text-darken-3 lighten-3">	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vero rerum tenetur dolorum obcaecati modi eum repellendus deserunt dolorem dignissimos, totam delectus culpa minima ipsum. Quas cumque, ab quae! Adipisci modi architecto vitae incidunt praesentium cumque debitis voluptatum voluptate officiis, ipsam cum molestias at optio, deserunt placeat veritatis odit quis.</p>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="parallax-container">
+	    <div class="parallax"><img src="images/cuatro.jpg"></div>
+	  </div>
+
+
+  <section id="call" class="section rojillo white-text">
+  	<div class="row container center">
+  		<div class="col s12">
+  			<h3>Call to action</h3>
+  			<p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas error sed harum, autem enim neque, beatae maiores inventore ipsa reprehenderit eveniet commodi vitae distinctio! Enim optio repudiandae sed a laborum.</p>
+  		</div>
+
+  		<!-- Modal Trigger -->
+		  <a class="waves-effect waves-light btn-large modal-trigger white grey-text text-darken-4" href="#modal1">Modal</a>
+  	</div>
+  </section>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+	<section id="cards" class="section">
+		<div class="row container">
+			<div class="col s12 center">
+				<h3>Tarjetas</h3>
+				<p class="caption">
+					Las tarjetas son una forma conveniente de mostrar contenido compuesto de diferentes tipos de objetos. También son muy adecuadas para presentar objetos similares cuyo tamaño o acciones soportadas pueden variar considerablemente, como fotos con subtítulos de longitud variable.
+				</p>
+			</div>
+
+      <div class="col s12 m4">
+			  <div class="card">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="images/dos.jpg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">visibility</i></span>
+			      <p class="activator grey-text text-darken-4">Tarjeta con reveal</p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-light btn rojillo">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+      <div class="col s12 m4">
+			  <div class="card">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="images/uno.jpg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">visibility</i></span>
+			      <p class="activator grey-text text-darken-4">Tarjeta con reveal</p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-light btn rojillo">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+
+			<div class="col s12 m4">
+			  <div class="card">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="images/tres.jpg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">visibility</i></span>
+			      <p class="activator grey-text text-darken-4">Tarjeta con reveal</p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			      <a class="waves-effect waves-light btn rojillo">Botón</a>
+			    </div>
+			  </div>       
+			</div>
+		</div>
+	</section>
+
+	<section id="form" class="section rojillo white-text">
+		<div class="row container">
+			<div class="col s12">
+				<div class="col s12 center">
+					<h3>Formulario</h3>
+					<p class="caption">
+						Los formularios son la forma estándar de recibir datos introducidos por el usuario. Las transiciones y fluidez de estos elementos son muy importantes por la interacción inherente del usuario asociado con los formularios. 
+					</p>
+				</div>
+
+				<form class="col s12">
+		      <div class="row">
+		        <div class="input-field col s12 l6">
+		          <input id="first_name" type="text" class="validate">
+		          <label for="first_name">Nombre</label>
+		        </div>
+		        <div class="input-field col s12 l6">
+		          <input id="icon_prefix" type="text" class="validate">
+		          <label for="icon_prefix">Email</label>
+		        </div>
+		      </div>
+
+		      <div class="row">
+		        <div class="input-field col s12 l6">
+		          <input id="last_name" type="text" class="validate">
+		          <label for="last_name">Apellido</label>
+		        </div>
+		        <div class="input-field col s12 l6">
+		          <input id="icon_telephone" type="tel" class="validate">
+		          <label for="icon_telephone">Teléfono</label>
+		        </div>
+		      </div>
+
+				  <div class="row">
+		        <div class="input-field col s12">
+		          <textarea id="textarea1" class="materialize-textarea"></textarea>
+		          <label for="textarea1">Mensaje</label>
+		        </div>
+				  </div>
+
+		      <div class="row">
+		      	<div class="input-field col s12">
+		      		<button class="btn-large white waves-effect waves-light grey-text text-darken-4" type="submit" name="action">Enviar
+						    <i class="material-icons right">call_made</i>
+						  </button>
+		      	</div>
+		      </div>
+		    </form>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+	  <div class="row container">
+	    <div class="col s12">
+	      <ul class="tabs">
+	        <li class="tab col s3"><a class="active" href="#test1">Test 1</a></li>
+	        <li class="tab col s3"><a href="#test2">Test 2</a></li>
+	        <li class="tab col s3"><a href="#test3">Test 3</a></li>
+	        <li class="tab col s3"><a href="#test4">Test 4</a></li>
+	      </ul>
+	    </div>
+	    <div id="test1" class="col s12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore at, fuga soluta adipisci illum rerum dolorem, asperiores doloremque necessitatibus quas eum dicta ipsum sequi repellat nobis similique iure atque ea minima cupiditate ipsam earum debitis. Eius sed voluptatibus accusantium consequatur! Quas incidunt sunt voluptates accusamus perspiciatis sed consequuntur impedit ad est facilis ut tempora repellendus fugiat velit tenetur alias aspernatur itaque, reprehenderit optio non iure, aperiam asperiores. Iusto, aspernatur ratione optio molestiae ipsa alias illo dolorum omnis harum adipisci consequatur amet dolores asperiores numquam. Voluptatum tempora, provident ipsum vel illo officiis? Earum quis aspernatur animi consequuntur ullam autem id dignissimos saepe! Hic, numquam. Rerum nisi quisquam natus velit saepe dicta sequi. Aspernatur praesentium eligendi nihil nostrum iusto nisi maxime similique omnis, aut at, quidem a hic suscipit ab voluptate cum quasi odit consectetur minima molestiae. Nisi sint et eius deleniti autem cumque commodi recusandae alias. Veritatis accusamus eos doloribus nulla sint, accusantium numquam sapiente nostrum corporis, obcaecati expedita ratione ea nam at fuga maiores. Commodi laboriosam eum aut voluptatibus nam natus, debitis molestias iste eligendi rerum quasi deleniti beatae, quod porro, perferendis, ut dolores. Odio aperiam, molestias nesciunt maiores perferendis obcaecati facilis laboriosam minima dolorum, fuga incidunt reprehenderit, nostrum id.</div>
+	    <div id="test2" class="col s12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quod minus dolorum nemo, alias enim recusandae tempore itaque quae? Deleniti doloribus eligendi accusantium maxime iusto veritatis qui velit a aliquid, ipsam incidunt laudantium, saepe deserunt facilis nesciunt quidem. Iure beatae, officia quae repudiandae obcaecati, sapiente vitae id a eligendi quia ullam. Illo distinctio, unde? Cumque ab aliquam, laborum nemo. Debitis quia ipsum recusandae ad, perspiciatis temporibus iure molestias facere id aliquid optio qui quasi, perferendis eaque porro nemo, quidem repellat velit ratione sunt consectetur aperiam a delectus tempore laboriosam. Incidunt vel fugiat recusandae fuga, minus voluptatibus dolor. Minima soluta alias repudiandae culpa molestias, nobis aut quam nostrum repellat! Nulla odit, accusantium in recusandae ab amet inventore, facere culpa voluptatum reiciendis temporibus, similique rem numquam. Iste ducimus minus repellendus nam optio earum rem, necessitatibus magnam tenetur ea ipsam at recusandae consectetur tempore rerum possimus, maiores error minima nobis repellat molestias, ipsa blanditiis nostrum. Voluptatum consequuntur cumque assumenda veniam fuga. Esse sapiente iste architecto rem deleniti, nisi adipisci id soluta consequuntur harum. Unde sint excepturi, odio iusto, blanditiis quibusdam neque sed similique omnis quod quisquam veritatis debitis ab, tempora, molestias in voluptas. Id molestias itaque a officia vel praesentium quam, dicta accusantium.</div>
+	    <div id="test3" class="col s12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quo fugit eius rerum omnis illo excepturi natus totam fugiat minima nihil odit odio illum numquam nesciunt modi quam et harum ipsam impedit aperiam nobis in quis, ab deserunt. Corrupti cum animi sint consequuntur delectus fugit voluptas rerum iusto excepturi expedita blanditiis, autem error. Reiciendis officiis, quaerat laborum veritatis consectetur, ipsam minus delectus illo sed enim est! Voluptates voluptatum, suscipit enim natus nesciunt odit nihil. Quas odio ex exercitationem, minus repellat cupiditate aliquid reprehenderit. Sequi, minima deserunt laudantium, iste itaque iusto saepe. Quidem, odio sunt. Obcaecati fugiat nulla, magni soluta aliquid voluptas tempore minima, tempora iure, dolor id error tenetur autem dignissimos laborum doloremque! Est reiciendis sit, amet molestiae praesentium pariatur consectetur, eum hic sapiente earum eveniet, cumque, omnis provident recusandae non sequi inventore! Repellat mollitia dignissimos quo nulla ullam reprehenderit aut possimus, et inventore repellendus accusamus autem deleniti consequatur magnam ipsum obcaecati optio doloribus unde culpa laboriosam tempora vel quis. Cumque delectus tenetur, illo blanditiis voluptatum quod veniam ab dolores, ducimus temporibus dignissimos excepturi earum laboriosam vitae velit magni reiciendis facilis porro. Nesciunt reiciendis omnis tempora cumque, quidem eveniet laborum eius error cum aliquid, quod modi odit aut magni rem.</div>
+	    <div id="test4" class="col s12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ad distinctio animi, voluptatem voluptates veritatis ducimus nostrum totam doloremque, quod. Nemo esse, cum ipsum corporis rerum numquam aspernatur dolores quis est obcaecati. Laborum, qui, natus. Architecto totam et in saepe, inventore cumque blanditiis, ducimus praesentium consequuntur ullam dolorem sit ea distinctio unde quos eum eligendi aut odio, mollitia error nobis dolor hic. Veniam odio est tenetur inventore. Et impedit veritatis, quae blanditiis laudantium aspernatur vel nesciunt consectetur molestias animi, ut esse. Blanditiis harum exercitationem tempora deserunt nostrum, quasi porro qui quibusdam eveniet magnam sit libero in. Voluptate illum possimus eaque ratione enim, dolores repudiandae pariatur maxime molestias aspernatur? Repudiandae, voluptates, sunt necessitatibus animi quidem cumque veniam eaque quis error in repellendus recusandae, dicta accusantium voluptas amet! Nemo praesentium vel, quam alias id fugiat sequi exercitationem pariatur cupiditate ullam hic debitis recusandae dolorem inventore. Enim minus voluptas ipsam iste optio aperiam libero, consequatur similique a mollitia incidunt exercitationem temporibus repellendus, quae sequi nulla quibusdam labore, commodi quam debitis in dicta blanditiis. Nobis repellendus quibusdam cumque veniam eius. Deserunt officia eligendi ea reprehenderit sunt asperiores rerum iste modi odio beatae itaque, provident tempora, voluptas et qui molestiae ipsam? Voluptates deleniti, tenetur molestias!</div>
+	  </div>
+	</section>
+
+	<!-- FOOTER -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large rojillo">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating btn-large red"><i class="material-icons">insert_chart</i></i></a></li>
+      <li><a class="btn-floating btn-large yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating btn-large green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating btn-large blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+      
+
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>if (!window.jQuery) { document.write('<script src="js/jquery-2.1.4.min.js"><\/script>'); }</script>
+	<script src="js/materialize.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		// Inicializa el botón del menú responsive
+    $(".button-collapse").sideNav();
+		$(".dropdown-button").dropdown();
+    $('.parallax').parallax();
+    $('.modal-trigger').leanModal();
+    $('ul.tabs').tabs();
+    $('.slider').slider({
+    	full_width: true,
+    	height: 500
+    });
+    var options = [
+	    {selector: '#call', offset: 200, callback: 'globalFunction()' },
+	    {selector: '#cards', offset: 200, callback: 'globalFunction()' },
+	    {selector: '#form', offset: 200, callback: 'globalFunction()' },
+	  ];
+	  Materialize.scrollFire(options);
+	});
+	</script>
+</body>
+</html>
